@@ -4,7 +4,9 @@ require_relative '../lib/learning_path_generator'
 
 describe 'LearningPathGenerator' do
 
-  data_handler = DataHandler.new
+  domain_order_handler = DomainOrderHandler.new
+  student_data_handler = StudentDataHandler.new
+  data_handler = DataHandler.new(domain_order_handler, student_data_handler)
   csv_handler = CSVHandler.new
   learning_path_generator = LearningPathGenerator.new(data_handler, csv_handler)
 

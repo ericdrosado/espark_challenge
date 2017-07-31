@@ -12,7 +12,9 @@ class LearningPathGenerator
 
 end
 
-data_handler = DataHandler.new
+domain_order_handler = DomainOrderHandler.new
+student_data_handler = StudentDataHandler.new
+data_handler = DataHandler.new(domain_order_handler, student_data_handler)
 csv_handler = CSVHandler.new
 learning_path_generator = LearningPathGenerator.new(data_handler, csv_handler)
 learning_path_generator.generate_learning_path
