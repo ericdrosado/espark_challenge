@@ -2,7 +2,7 @@ require_relative '../lib/domain_order_handler'
 require_relative '../lib/student_data_handler'
 require_relative '../lib/data_handler'
 
-describe 'LearningPathGenerator' do
+describe 'DataHandler' do
 
   domain_order_handler = DomainOrderHandler.new
   student_data_handler = StudentDataHandler.new
