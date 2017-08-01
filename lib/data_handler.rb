@@ -27,7 +27,7 @@ class DataHandler
 
   def pick_five_learning_domains student_scores, learning_domains
     if student_scores == []
-      five_learning_domains = ['K.RF','K.RL','K.RI','K.L','1.RF']
+      five_learning_domains = ["K.RF","K.RL","K.RI","K.L","1.RF"]
     else
       index = 0
       five_learning_domains = Array.new
