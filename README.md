@@ -3,7 +3,7 @@ in the terminal, while in the root directory.
 
 Once the dependencies have been installed you can Generate Learning Paths, by typing
 ```bundle exec ruby lib/learning_path_generator.rb``` in the terminal, while in the root directory. Generated Paths can be found in
-the ```solution.csv``` file in the main directory.
+the ```solution.csv``` file in the root directory.
 
 Tests can be run by typing ```bundle exec rspec``` in the terminal, while in the root directory.
 
